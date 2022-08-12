@@ -39,9 +39,11 @@ class Car extends VehicleModule {
             this.scheduleService = true;
             return this.scheduleService;
         }
-        else 
-            console.log ("No service is needed at this time")
+        else {
+            console.log ("No service is needed at this time");
+        }
     }
+}
 
 
 
